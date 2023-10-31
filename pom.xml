@@ -544,15 +544,6 @@
         <scope>compile</scope>
       </dependency>
 
-
-
-      <dependency>
-        <groupId>xerces</groupId>
-        <artifactId>xercesImpl</artifactId>
-        <version>2.9.0</version>
-        <scope>compile</scope>
-      </dependency>
-
       <dependency>
         <groupId>xerces</groupId>
         <artifactId>xercesImpl</artifactId>
