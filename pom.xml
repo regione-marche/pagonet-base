@@ -18,7 +18,7 @@
     </properties>
 
     <distributionManagement>
-	<!-- 15.11.203 inserimento tag 	snapshotRepository-->
+	
 	   <repository>
 	          <uniqueVersion>false</uniqueVersion>
 	          <id>artifact-registry</id>
@@ -26,7 +26,7 @@
 	          <url>artifactregistry://europe-west1-maven.pkg.dev/maggioli-registry/pagamenti-releases</url>
 	          <layout>default</layout>
 	   </repository>
-       
+       <!-- inizio 15.11.203 inserimento tag 	snapshotRepository-->
        <snapshotRepository>
        		<id>pagamenti-registry-snapshots</id>
 		    <url>artifactregistry://europe-west1-maven.pkg.dev/maggioli-registry/pagamenti-snapshots</url>
@@ -38,6 +38,7 @@
 		      <updatePolicy>always</updatePolicy>
 		    </snapshots>
        </snapshotRepository>
+       <!-- inizio 15.11.203 inserimento tag 	snapshotRepository-->
        
     </distributionManagement>
 
