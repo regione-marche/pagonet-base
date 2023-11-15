@@ -4,7 +4,7 @@
 
   <groupId>it.maggioli.informatica.base.pom</groupId>
   <artifactId>pagonet-base</artifactId>
-  <version>1.1</version>
+  <version>1.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>pagonet-base</name>
   <description>pom parent per i progetti pagonet</description>
@@ -18,13 +18,28 @@
     </properties>
 
     <distributionManagement>
-        <repository>
-          <uniqueVersion>false</uniqueVersion>
-          <id>artifact-registry</id>
-          <name>Corporate Repository</name>
-          <url>artifactregistry://europe-west1-maven.pkg.dev/maggioli-registry/pagamenti-releases</url>
-          <layout>default</layout>
-        </repository>
+	
+	   <repository>
+	          <uniqueVersion>false</uniqueVersion>
+	          <id>artifact-registry</id>
+	          <name>Corporate Repository</name>
+	          <url>artifactregistry://europe-west1-maven.pkg.dev/maggioli-registry/pagamenti-releases</url>
+	          <layout>default</layout>
+	   </repository>
+       <!-- inizio 15.11.203 inserimento tag 	snapshotRepository-->
+       <snapshotRepository>
+       		<id>pagamenti-registry-snapshots</id>
+		    <url>artifactregistry://europe-west1-maven.pkg.dev/maggioli-registry/pagamenti-snapshots</url>
+		    <releases>
+		      <enabled>false</enabled>
+		    </releases>
+		    <snapshots>
+		      <enabled>true</enabled>
+		      <updatePolicy>always</updatePolicy>
+		    </snapshots>
+       </snapshotRepository>
+       <!-- inizio 15.11.203 inserimento tag 	snapshotRepository-->
+       
     </distributionManagement>
 
   <build>
