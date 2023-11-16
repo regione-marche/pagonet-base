@@ -733,6 +733,21 @@
         <scope>compile</scope>
       </dependency>
 
+      <dependency>
+        <groupId>db2jcc_license_cu</groupId>
+        <artifactId>db2jcc_license_cu</artifactId>
+        <version>1.0</version>
+      </dependency>
+      <dependency>
+        <groupId>db2jcc</groupId>
+        <artifactId>db2jcc</artifactId>
+        <version>1.0</version>
+      </dependency>
+      <dependency>
+          <groupId>net.schmizz</groupId>
+          <artifactId>sshj</artifactId>
+          <version>0.9.0</version>
+      </dependency>    
 		</dependencies>
 	</dependencyManagement>
 
