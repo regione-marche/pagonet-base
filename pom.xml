@@ -57,6 +57,46 @@
       </extensions>
     </build>
 
+	<dependencies>
+			
+			<dependency>
+	        <groupId>com.lmax</groupId>
+	        <artifactId>disruptor</artifactId>
+	        <version>${disruptor.version}</version>
+	      </dependency>
+	
+	      <dependency>
+	        <groupId>org.apache.logging.log4j</groupId>
+	        <artifactId>log4j-api</artifactId>
+	        <version>${log4j.version}</version>
+	      </dependency>
+	
+	      <dependency>
+	        <groupId>org.apache.logging.log4j</groupId>
+	        <artifactId>log4j-core</artifactId>
+	        <version>${log4j.version}</version>
+	      </dependency>
+	
+	    <dependency>
+	        <groupId>org.apache.logging.log4j</groupId>
+	        <artifactId>log4j-layout-template-json</artifactId>
+	        <version>${log4j.version}</version>
+	      </dependency>
+			
+			<dependency>
+	        <groupId>com.fasterxml.jackson.core</groupId>
+	        <artifactId>jackson-annotations</artifactId>
+	        <version>${jackson.version}</version>
+	      </dependency>
+	
+	      <dependency>
+	        <groupId>com.fasterxml.jackson.core</groupId>
+	        <artifactId>jackson-databind</artifactId>
+	        <version>${jackson.version}</version>
+	      </dependency>
+	</dependencies>
+
+
 	<dependencyManagement>
 		<dependencies>
 
@@ -84,17 +124,7 @@
         <scope>compile</scope>
       </dependency> -->
 
-      <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-annotations</artifactId>
-        <version>${jackson.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>${jackson.version}</version>
-      </dependency>
+      
       <!-- <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
@@ -269,29 +299,7 @@
       </dependency>
 
 
-      <dependency>
-        <groupId>com.lmax</groupId>
-        <artifactId>disruptor</artifactId>
-        <version>${disruptor.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-api</artifactId>
-        <version>${log4j.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-core</artifactId>
-        <version>${log4j.version}</version>
-      </dependency>
-
-    <dependency>
-        <groupId>org.apache.logging.log4j</groupId>
-        <artifactId>log4j-layout-template-json</artifactId>
-        <version>${log4j.version}</version>
-      </dependency>
+      
 
       <dependency>
         <groupId>com.betfair.net.java.opendmk</groupId>
@@ -794,8 +802,8 @@
             <version>1.4.1</version>
         </dependency>
 
+<dependencies></dependencies
 
-		</dependencies>
 	</dependencyManagement>
 
 
