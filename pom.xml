@@ -4,7 +4,7 @@
 
   <groupId>it.maggioli.informatica.base.pom</groupId>
   <artifactId>pagonet-base</artifactId>
-  <version>1.2.0</version>
+  <version>1.4.0</version>
   <packaging>pom</packaging>
   <name>pagonet-base</name>
   <description>pom parent per i progetti pagonet</description>
@@ -877,6 +877,12 @@
           <artifactId>spring-boot-starter-test</artifactId>
           <version>2.7.12</version>
           <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
         </dependency>
 
     </dependencies>
